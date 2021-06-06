@@ -1,0 +1,232 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ section {
+    height: auto;
+  }
+  /* menu css */
+  #menu-block{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 128px 0 0 0;
+    background-color: #20c997;
+    z-index: 99999999;
+  }
+  #menu-block li{
+
+  }
+  #menu-block li a {
+    padding: 17px 0;
+    font-weight: 600;
+}
+  .toggle-menu{
+    color: #fff;
+    display: block;
+    position: absolute;
+    right: 18px;
+    top: 46px;
+    font-size: 19px;
+    border: 1px solid #fff;
+    padding: 3px 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .brand-text{
+    float: left;
+  }
+  .close-btn{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    top: 7%;
+    right: 6%;
+    background-color: #000;
+    padding: 8px 9px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    z-index: 9999;
+  }
+
+  .toggle-menu, .close-btn{
+    display: block;
+ }
+ .main-wrapper menu{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    display: flex;
+    padding: 15px;
+ }
+  .main-wrapper{
+    margin-left: 0px!important;
+  }
+  .home-wrapper h2{
+    width: 100%;
+  }
+  .home-wrapper {
+        text-align: center;
+    padding: 148px 20px;
+    height: 80vh;
+}
+.brand {
+    padding: 0 0 0 0;
+}
+.brand .image-box {
+        width: 90px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.brand h4 {
+    color: #fff;
+    margin: 0 0 0;
+    padding: 26px 0 0 0;
+}
+  .whatido .header.what-i-do:before, .resume-wrapper .header.resume:before, 
+  .about-wrapper .header.about:before, .portfolio-wrapper .header.portfolio:before,
+  .resume-wrapper .header.resume:before{
+    font-size: 40px;
+    display: none!important;
+  }
+  .services ul li {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-wrapper .header.portfolio:before {
+    left: 5%;
+}
+.resume-wrapper .header.resume:before {
+    content: "Summary";
+    display: block;
+    position: absolute;
+    left: 14%;
+   } 
+   .whatido .header.what-i-do:before{
+    left: 10%;
+   }
+
+  .home-wrapper h2 {
+        font-size: 25px;
+    margin-bottom: 10px;
+  }
+ .home-wrapper h5 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  .home-wrapper p {
+    color: #fff!important;
+    margin-bottom: 27px;
+  }
+  
+
+  .about-wrapper .header h2:before {
+    left: 36%;
+  }
+  .rewards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+
+
+ .whatido .header {
+    padding: 15px 0 50px 0;
+  }
+
+  .services ul{
+    padding: 0;
+  }
+  .services ul li .icon {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .services ul li .content{
+    text-align: center;
+  }
+
+
+  .resume-wrapper .header h2:before {
+    left: 36%;
+  }
+  .resume-wrapper .header {
+    padding: 15px 0 40px 0;
+  }
+ 
+
+
+ /* popup card css */
+ .popup-card {
+    position: fixed;
+    width: 85%!important;
+  }
+}
